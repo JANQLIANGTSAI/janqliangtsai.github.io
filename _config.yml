@@ -30,6 +30,9 @@ markdown: kramdown
 theme: minima
 
 # by Max Tsai
-# gems:
-#   - jekyll-coffeescript
-#   - jekyll-paginate
+gems:
+   - jekyll-mentions
+   - jekyll-coffeescript
+   - jekyll-paginate
+   - jekyll-sitemap
+   - jekyll-feed
