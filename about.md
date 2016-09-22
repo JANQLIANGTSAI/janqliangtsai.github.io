@@ -13,3 +13,14 @@ You can find the source code for the Jekyll new theme at:
 You can find the source code for Jekyll at
 {% include icon-github.html username="jekyll" %} /
 [jekyll](https://github.com/jekyll/jekyll)
+
+##Max Tsai
+
+### Innovation Architect
+### California State Univetsity, Fresno
+
+* **Drive the Innovation Maturity rollout**
+ 
+* **Support the development and implementation of the Innovation Program**
+
+* **Lead Disruptive Innovation initiatives as needed**
