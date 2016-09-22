@@ -32,3 +32,4 @@ theme: minima
  gems:
    - jekyll-coffeescript
    - jekyll-paginate
+   
