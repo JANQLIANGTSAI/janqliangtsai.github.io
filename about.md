@@ -1,10 +1,8 @@
 ---
 layout: page
-title: About
+title: Max Tsai
 permalink: /about/
 ---
-
-##Max Tsai
 
 ### Innovation Architect
 California State Univetsity, Fresno
