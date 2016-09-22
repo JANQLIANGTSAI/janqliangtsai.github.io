@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Max Tsai
+title: About Max Tsai
 permalink: /about/
 ---
 
@@ -8,5 +8,5 @@ permalink: /about/
 California State Univetsity, Fresno
 
 * **Drive the Innovation Maturity rollout**
-* **Support the development and implementation of the Innovation Technologies**
+* **Development and implementation of the Innovation Technologies**
 * **Lead Disruptive Innovation initiatives as needed**
