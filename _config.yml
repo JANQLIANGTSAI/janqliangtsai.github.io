@@ -36,3 +36,6 @@ gems:
    - jekyll-paginate
    - jekyll-sitemap
    - jekyll-feed
+
+jekyll-mentions:
+  base_url: https://twitter.com
