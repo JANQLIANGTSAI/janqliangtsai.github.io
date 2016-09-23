@@ -9,6 +9,8 @@ California State Univetsity, Fresno
 
 ---
 
+_create sustainable and innovative solutions to solve real problems, challenges, and needs in administrative and academic areas at Fresno State._
+
 Lead IT technology innovation within the university, including:
 
 * Engagement with key stakeholders to identify and understand opportunities for IT technology innovation with significant impacts to the university's core missions;
