@@ -4,8 +4,11 @@ title: About Max Tsai
 permalink: /about/
 ---
 
-### Innovation Architect
+**Innovation Architect**
 California State Univetsity, Fresno
+
+---
+
 
 Lead IT technology innovation within the university, including:
 
@@ -16,8 +19,8 @@ Lead IT technology innovation within the university, including:
 * Communicate activity, opportunities, insight, successes and failures as a result of the companys innovation activities and research to the wider IT community.
 
 
+
 ---
 
-* **Drive the Innovation Maturity rollout**
-* **Development and implementation of the Innovation Technologies**
-* **Lead Disruptive Innovation initiatives as needed**
+
+**Drive the Innovation Maturity rollout** | **Development and implementation of the Innovation Technologies** | **Lead Disruptive Innovation initiatives as needed**
