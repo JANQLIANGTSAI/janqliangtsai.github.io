@@ -5,10 +5,10 @@ permalink: /about/
 ---
 
 **Innovation Architect**
+
 California State Univetsity, Fresno
 
 ---
-
 
 Lead IT technology innovation within the university, including:
 
@@ -17,8 +17,6 @@ Lead IT technology innovation within the university, including:
 * Rapidly evaluate the viability and potential of identified technologies;
 * Work with the wider IT Technology Office function to understand the impact of these new technologies on technology strategy, IT roadmaps, and business unit plans;
 * Communicate activity, opportunities, insight, successes and failures as a result of the companys innovation activities and research to the wider IT community.
-
-
 
 ---
 
