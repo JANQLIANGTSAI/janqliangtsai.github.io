@@ -6,6 +6,10 @@ title: tags
 <div class='list-group'>
   {% assign tags_list = site.tags %}
 
+
+  <hr/>
+
+  <ul>
   {% if tags_list.first[0] == null %}
     {% for tag in tags_list %}
       <a href="/tags#{{ tag }}-ref" class='list-group-item'>
@@ -14,16 +18,19 @@ title: tags
     {% endfor %}
   {% else %}
     {% for tag in tags_list %}
-      <a href="/tags#{{ tag[0] }}-ref" class='list-group-item'>
+      <li><a href="/tags#{{ tag[0] }}-ref" class='list-group-item'>
         {{ tag[0] }}
-      </a> <span class='badge'>{{ tag[1].size }}</span>
+      </a> <span class='badge'>{{ tag[1].size }}</span></li>
     {% endfor %}
   {% endif %}
 
   {% assign tags_list = nil %}
+  
+  </ul>
+  <hr/>
+
 </div>
 
-<hr/>
 
 {% for tag in site.tags %}
   <h2 class='tag-header' id="{{ tag[0] }}-ref">{{ tag[0] }}</h2>
