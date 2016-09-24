@@ -14,8 +14,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 #
-title: Max Tsai
-email: mt8168@gmail.com
+title: Max Tsai (Innovation at Work)
+email: janq@csufresno.edu
 description: > # this means to ignore newlines until "baseurl:"
   _What gets us into trouble is not what we don’t know. It’s what we know for sure that just ain’t so._ Mark Twain
 baseurl: "" # the subpath of your site, e.g. /blog
