@@ -1,10 +1,19 @@
 ---
 layout: post
-title:  "Welcome to Max Tsai's Test Page!"
+title:  "Max Tsai's Test Page!"
 date:   2016-09-18 10:13:04 -0700
 categories: maxtsai update
 ---
 
+**This is a test page and here is [how I do it](http://github.maxtsai.com/maxtsai/update/2016/09/24/0923-mypage.html)?**  
+-----
+.....  
+....  
+...  
+..  
+.  
+
+  
 Testing Jekyll:
 
 {% highlight ruby %}
