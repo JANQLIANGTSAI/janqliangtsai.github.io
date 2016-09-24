@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Tags
+title: tags
 ---
 
 <div class='list-group'>
@@ -15,14 +15,15 @@ title: Tags
   {% else %}
     {% for tag in tags_list %}
       <a href="/tags#{{ tag[0] }}-ref" class='list-group-item'>
-        {{ tag[0] }} <span class='badge'>{{ tag[1].size }}</span>
-      </a>
+        {{ tag[0] }}
+      </a> <span class='badge'>{{ tag[1].size }}</span>
     {% endfor %}
   {% endif %}
 
   {% assign tags_list = nil %}
 </div>
 
+<hr/>
 
 {% for tag in site.tags %}
   <h2 class='tag-header' id="{{ tag[0] }}-ref">{{ tag[0] }}</h2>
