@@ -49,3 +49,11 @@ $on-laptop:        800px;
 .site-nav .page-link {
     color: lightcyan;
 }
+
+@media screen and (max-width: 600px) {
+
+  .site-nav .page-link {
+    color: #000;
+  }
+
+}
