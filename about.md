@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Max Tsai
+title: About
 permalink: /about/
 ---
 
