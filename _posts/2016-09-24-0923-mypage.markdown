@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Welcome - My First Page at Github!"
-date:   2016-09-18 10:13:04 -0700
+date:   2016-09-24 09:00:00 -0700
 categories: maxtsai update
 ---
 
