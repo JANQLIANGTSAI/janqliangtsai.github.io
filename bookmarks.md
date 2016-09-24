@@ -5,3 +5,10 @@ permalink: /links/
 ---
 
 BOOKMARKS
+
+
+
+
+
+---
+Back to [Blogs](http://github.maxtsai.com/)

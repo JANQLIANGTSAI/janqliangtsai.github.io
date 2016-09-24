@@ -21,3 +21,7 @@ California State Univetsity, Fresno
 
 
 **Drive the Innovation Maturity rollout** | **Development and implementation of the Innovation Technologies** | **Lead Disruptive Innovation initiatives as needed**
+
+---  
+
+Back to [Blogs](http://github.maxtsai.com/)
