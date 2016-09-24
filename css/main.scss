@@ -39,5 +39,9 @@ $on-laptop:        800px;
 @import "minima";
 
 .site-header {
-    background-color: lightgray;
+    background-color: black;
+}
+
+.site-title, .site-title:visited {
+    color: lightgray;
 }
