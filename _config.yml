@@ -25,7 +25,8 @@ github_username:  janqliangtsai
 
 # Build settings
 markdown: kramdown
-theme: minima
+#theme: minima
+theme: ace-theme
 
 # by Max Tsai
 gems:
