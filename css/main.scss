@@ -56,6 +56,10 @@ $on-laptop:        800px;
     font-style: italic;
 }
 
+.wrapper {
+    background-color: azure;
+}
+
 @media screen and (max-width: 600px) {
 
   .site-nav .page-link {
