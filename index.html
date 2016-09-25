@@ -15,9 +15,8 @@ layout: default
             <div id="max-content">
             <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-            <b>
-              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-            </b>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+                
             {% if page.description %}<p>{{ page.description }}</p>{% endif %}
 
             </div>
