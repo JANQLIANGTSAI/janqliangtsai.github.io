@@ -79,6 +79,10 @@ $on-laptop:        800px;
     background-color: #444;
 }
 
+.site-footer a { color: #fc0; text-decoration: none; }
+.site-footer a:visited { color: #fc0; }
+.site-footer a:hover { color: #f19900; text-decoration: none; }
+
 @media screen and (max-width: 600px) {
 
   .site-nav .page-link {
