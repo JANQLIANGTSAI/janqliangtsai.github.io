@@ -17,17 +17,21 @@ layout: default
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
         </h3>
         {% if page.description %}<p>{{ page.description }}</p>{% endif %}
+          
+            <hr style="border-top: 1px dotted #8c8b8b;" />
       </li>
     {% endfor %}
   </ul>
 
   </div>
   
+    <!--
   <hr style="border-top: 1px dotted #8c8b8b;" />
   <p class="rss-subscribe">
     <a href="{{ "/tags/" | prepend: site.baseurl }}">tags</a> cloud | 
     subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>
   </p>
   <hr style="border-top: 1px dotted #8c8b8b;" />
-
+    -->
+    
 </div>
