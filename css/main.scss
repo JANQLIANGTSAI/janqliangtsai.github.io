@@ -96,24 +96,25 @@ $on-laptop:        800px;
 }
 
 #max-wrapper {
-  margin-right: 208px;
+  margin-right: 200px;
 }
 #max-content {
     float: left;
     width: 100%;
     background-color: #555;
-    margin: 2px;
+    //margin: 2px;
+    //border-right: 2px;
     padding: 5px;
-    border-radius: 25px;
+    //border-radius: 25px;
 }
 #max-sidebar {
     float: right;
     width: 200px;
-    margin-right: -208px;
+    margin-right: -200px;
     background-color: #333;
-    margin: 2px;
+    //margin: 2px;
     padding: 5px;
-    border-radius: 25px;
+    //border-radius: 25px;
 }
 #max-cleared {
   clear: both;
