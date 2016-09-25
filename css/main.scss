@@ -39,7 +39,8 @@ $on-laptop:        800px;
 @import "minima";
 
 .site-header {
-    background-color: #373737;
+    // background-color: #373737;
+    background-color: #333;
 }
 
 .site-title, .site-title:visited {
@@ -57,11 +58,13 @@ $on-laptop:        800px;
 }
 
 .page-content .wrapper {
-    background-color:  #f4f4f4 ;
+    // background-color:  #f4f4f4 ;
+    background-color:  #DDDDDD ;
 }
 
 .page-content {
-    background-color: #f4f4f4 ; 
+    // background-color: #f4f4f4 ; 
+    background-color: #333;
 }
 
 .site-footer {
