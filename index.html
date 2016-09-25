@@ -6,19 +6,24 @@ layout: default
 
   <h1 class="page-heading"><br/>Posts</h1>
 
-  <div id="max-wrapper" style="min-height: 640px;">
+  <div id="max-wrapper">
       
       <ul class="post-list">
         {% for post in paginator.posts %}
           <li>
               
             <div id="max-content">
+                
             <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
                 
             {% if page.description %}<p>{{ page.description }}</p>{% endif %}
-
+            
+            <div id="max-post-content">
+                {{ post.content }}
+            </div>
+            
             </div>
     
           </li>
@@ -28,6 +33,7 @@ layout: default
       </div>
     
         <!-- pagenaton -->
+        <hr style="border-top: 1px dotted #8c8b8b;" />
         <div class="pagination">
           {% if paginator.previous_page %}
             <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
@@ -41,6 +47,8 @@ layout: default
             <span class="next ">Next</span>
           {% endif %}
         </div>
+    
+        <br/>
       
   </div>
   
