@@ -48,7 +48,8 @@ $on-laptop:        800px;
 }
 
 .site-nav .page-link {
-    color: lightcyan;
+    //color: lightcyan;
+    color: #fc0;
     border-right: 1px solid gray;
     padding: 3px;
 }
@@ -66,6 +67,11 @@ $on-laptop:        800px;
 .page-content {
     // background-color: #f4f4f4 ; 
     background-color: #333;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+}
+
+.page-content .page-link {
+    color: #fc0;
 }
 
 .site-footer {
