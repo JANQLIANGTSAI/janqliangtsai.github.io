@@ -83,6 +83,10 @@ $on-laptop:        800px;
 .site-footer a:visited { color: #fc0; }
 .site-footer a:hover { color: #f19900; text-decoration: none; }
 
+.highlight {
+    color: black;
+}
+
 @media screen and (max-width: 600px) {
 
   .site-nav .page-link {
