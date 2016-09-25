@@ -17,7 +17,9 @@ layout: default
             <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
             <p>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+                <b>
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+                </b>
             </p>
                 
             {% if page.description %}<p>{{ page.description }}</p>{% endif %}
@@ -34,7 +36,7 @@ layout: default
                 {% endcapture %} 
     
                 {% if excerpt_words != content_words %}
-                .... <a class="btn btn-sm btn-primary" href="{{ post.url }}/#read-more" role="button">read more <i class="fa fa-arrow-circle-right"></i></a>
+                <a class="btn btn-sm btn-primary" href="{{ post.url }}/#read-more" role="button"> more .. <i class="fa fa-arrow-circle-right"></i></a>
                 {% endif %}
                 
             </div>
