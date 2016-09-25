@@ -67,12 +67,13 @@ $on-laptop:        800px;
 .page-content {
     // background-color: #f4f4f4 ; 
     background-color: #333;
+    color: #ddd;
     text-shadow: 0 1px 3px rgba(0,0,0,0.5);
 }
 
 .page-content a { color: #fc0; text-decoration: none; }
 .page-content a:visited { color: #fc0; }
-.page-content a:hover { color: #fc0; text-decoration: underline; }
+.page-content a:hover { color: #f19900; text-decoration: underline; }
 
 .site-footer {
     background-color: #fff;
