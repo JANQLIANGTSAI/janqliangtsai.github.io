@@ -9,6 +9,7 @@ description: Host your Blogs at Github Pages
 
 **Free hosting with GitHub Pages**  
 GitHub Pages are powered by [Jekyll](https://jekyllrb.com/), so you can easily deploy your site using GitHub for free—custom domain name and all.
+<!--more-->
 
 Getting Stated
 -----
