@@ -94,3 +94,21 @@ $on-laptop:        800px;
   }
 
 }
+
+#max-wrapper {
+  margin-right: 200px;
+}
+#max-content {
+  float: left;
+  width: 100%;
+  background-color: #CCF;
+}
+#max-sidebar {
+  float: right;
+  width: 200px;
+  margin-right: -200px;
+  background-color: #FFA;
+}
+#max-cleared {
+  clear: both;
+}

@@ -6,22 +6,27 @@ layout: default
 
   <h1 class="page-heading">Posts</h1>
 
-  <div style="min-height: 500px;">
+  <div id="max-wrapper" style="min-height: 640px;">
       
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <div id="max-content">
+          <ul class="post-list">
+            {% for post in site.posts %}
+              <li>
+                <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        <h3>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-        </h3>
-        {% if page.description %}<p>{{ page.description }}</p>{% endif %}
-          
-            <hr style="border-top: 1px dotted #8c8b8b;" />
-      </li>
-    {% endfor %}
-  </ul>
+                <h3>
+                  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+                </h3>
+                {% if page.description %}<p>{{ page.description }}</p>{% endif %}
+
+                    <hr style="border-top: 1px dotted #8c8b8b;" />
+              </li>
+            {% endfor %}
+          </ul>
+    </div>
+      
+    <div id="max-sidebar">Column 2 (fixed)</div>
+    <div id="max-cleared"></div>
 
   </div>
   
