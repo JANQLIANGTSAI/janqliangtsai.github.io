@@ -39,3 +39,5 @@ gems:
 
 jekyll-mentions:
   base_url: https://twitter.com
+  
+paginate: 1
