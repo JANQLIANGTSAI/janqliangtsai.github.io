@@ -4,24 +4,29 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <h1 class="page-heading"><br/>Posts</h1>
 
   <div id="max-wrapper" style="min-height: 640px;">
       
       <ul class="post-list">
         {% for post in site.posts %}
           <li>
+              
+            <div id="max-content">
             <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-            <h3>
+            <b>
               <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-            </h3>
+            </b>
             {% if page.description %}<p>{{ page.description }}</p>{% endif %}
 
                 <hr style="border-top: 1px dotted #8c8b8b;" />
+            </div>
+              
           </li>
         {% endfor %}
       </ul>
+      </div>
       
   </div>
   
