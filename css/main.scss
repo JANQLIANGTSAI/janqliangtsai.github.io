@@ -96,8 +96,10 @@ $on-laptop:        800px;
 }
 
 #max-wrapper {
-  margin-right: 220px;
+  // margin-right: 220px;
+    min-height: 640px;
 }
+
 #max-content {
     float: left;
     width: 100%;
