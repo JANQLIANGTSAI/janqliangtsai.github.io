@@ -18,8 +18,15 @@
             {% endif %}
             </li>
 -->
-          <li><img src="/images/maxtsai.jpg" style="width: 120px;" /></li>
-          <li><a href="mailto:{{ site.email }}">{{ site.author }}</a></li>
+        <li>
+        <img src="/images/tag-cloud.gif" alt="" width="32px" /> <a href="{{ "/tags/" | prepend: site.baseurl }}">tag cloud</a> 
+
+        </li>
+            
+        <li>
+          <img src="/images/rss-icon.jpg" alt="" width="32px" /> <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>
+        </li>
+            
         </ul>
       </div>
 
@@ -27,12 +34,8 @@
         <ul class="social-media-list">
             
           <li>
-            <img src="/images/tag-cloud.gif" alt="" width="16px" /> <a href="{{ "/tags/" | prepend: site.baseurl }}">tags cloud</a> 
-              
-            </li>
-          <li>
-              <img src="/images/rss-icon.jpg" alt="" width="16px" /> <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>
-          </li>   
+              <img src="/images/email-icon.png" alt="" width="16px" /><a href="mailto:{{ site.email }}">{{ site.author }}</a>
+          </li>
           <li>
               <img src="/images/FB-fLogo-Blue-broadcast-2.png" alt="" width="16px" /> <a href="https://www.facebook.com/maxtsai">maxtsai</a>
           </li>
