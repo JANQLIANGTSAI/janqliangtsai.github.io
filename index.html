@@ -40,10 +40,9 @@ layout: default
     
                 {% if excerpt_words != content_words %}
                 <a class="btn btn-sm btn-primary" href="{{ post.url }}" role="button"> more .. <i class="fa fa-arrow-circle-right"></i></a>
-                {% endif %}
-                
+                {% endif %}       
             </div>
-            
+                            
             </div>
     
           </li>
@@ -80,5 +79,30 @@ layout: default
   </p>
   <hr style="border-top: 1px dotted #8c8b8b;" />
     -->
+
+<div class='list-group'>
+  {% assign tags_list = site.tags %}
+
+    <hr style="border-top: 1px dotted #8c8b8b;" />
+    
+  {% if tags_list.first[0] == null %}
+    {% for tag in tags_list %}
+      <a href="/tags#{{ tag }}-ref" class='list-group-item'>
+        {{ tag }}
+      </a> | 
+    {% endfor %}
+  {% else %}
+    {% for tag in tags_list %}
+      <a href="/tags#{{ tag[0] }}-ref" class='list-group-item'>
+        {{ tag[0] }}
+      </a> | 
+    {% endfor %}
+  {% endif %}
+
+  {% assign tags_list = nil %}
+  
+  <hr/>
+
+</div>
     
 </div>
