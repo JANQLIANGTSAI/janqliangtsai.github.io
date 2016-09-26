@@ -4,7 +4,7 @@ title: about
 permalink: /about/
 ---
 
-![Max Tsai][/images/maxtsai.jpg]
+![Max Tsai](/images/maxtsai.jpg)
 
 **Innovation Architect**  
 California State Univetsity, Fresno
