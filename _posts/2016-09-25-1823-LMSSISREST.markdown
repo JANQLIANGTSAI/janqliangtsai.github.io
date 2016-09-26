@@ -7,11 +7,6 @@ tags: innovation work-in-progress LMS SIS RESTful
 description: "eLearning: Restful SIS Integration (poor man's version of SAIP)"
 ---
 
-<center>
-**Work in Progress / Draft**
-</center>
-___
-
 Started the project of "eLearning: Restful SIS Integration (poor man's version of SAIP)"
 You can find more information at my [Github repo](https://github.com/maxjtsai/elearning-restful-sis/wiki)
 
