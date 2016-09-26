@@ -71,19 +71,29 @@ layout: default
         {% endif %}
     </div>
     
-    <br/>
-    
-    
+    <br/>    
+      
+  </div>
+  
+    <!--
+  <hr style="border-top: 1px dotted #8c8b8b;" />
+  <p class="rss-subscribe">
+    <a href="{{ "/tags/" | prepend: site.baseurl }}">tags</a> cloud | 
+    subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>
+  </p>
+  <hr style="border-top: 1px dotted #8c8b8b;" />
+    -->
+
+        </div> <!-- max-new-content -->
+    <div class="max-new-sidebar">
     <div class='list-group'>
       {% assign tags_list = site.tags %}
-
-        <hr style="border-top: 1px dotted #8c8b8b;" />
-
+        <h3>Tags</h3>
       {% if tags_list.first[0] == null %}
         {% for tag in tags_list %}
           <a href="/tags#{{ tag }}-ref" class='list-group-item'>
             {{ tag }}
-          </a> | 
+          </a><br/>
         {% endfor %}
       {% else %}
         {% for tag in tags_list %}
@@ -98,22 +108,7 @@ layout: default
       <hr/>
 
     </div>
-    
-      
-  </div>
-  
-    <!--
-  <hr style="border-top: 1px dotted #8c8b8b;" />
-  <p class="rss-subscribe">
-    <a href="{{ "/tags/" | prepend: site.baseurl }}">tags</a> cloud | 
-    subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>
-  </p>
-  <hr style="border-top: 1px dotted #8c8b8b;" />
-    -->
 
-        </div> <!-- max-new-content -->
-        <div class="max-new-sidebar">
-            max
         </div>
 </div> <!-- max-new-wrapper -->
     
