@@ -3,13 +3,16 @@ layout: default
 ---
 
 <div class="home">
+    
+    <div class="max-new-wrapper"> 
+        <div class="max-new-content">
 
 <!--
   <h1 class="page-heading"><br/>Posts</h1>
 -->
 <br/>
 
-  <div id="max-wrapper">
+    <div id="max-wrapper">
       
       <ul class="post-list">
         {% for post in paginator.posts %}
@@ -47,25 +50,53 @@ layout: default
           
         {% endfor %}
       </ul>
-      </div>
     
-        <!-- pagenaton -->
-        <hr style="border-top: 1px dotted #8c8b8b;" />
-        <div class="pagination">
-          {% if paginator.previous_page %}
+    </div>
+    
+    <!-- pagenaton -->
+    <hr style="border-top: 1px dotted #8c8b8b;" />
+    <div class="pagination">
+        {% if paginator.previous_page %}
             <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
-          {% else %}
+        {% else %}
             <span class="previous">Previous</span>
-          {% endif %}
+        {% endif %}
           <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-          {% if paginator.next_page %}
+        {% if paginator.next_page %}
             <a href="{{ paginator.next_page_path }}" class="next">Next</a>
-          {% else %}
+        {% else %}
             <span class="next ">Next</span>
-          {% endif %}
-        </div>
+        {% endif %}
+    </div>
     
-        <br/>
+    <br/>
+    
+    
+    <div class='list-group'>
+      {% assign tags_list = site.tags %}
+
+        <hr style="border-top: 1px dotted #8c8b8b;" />
+
+      {% if tags_list.first[0] == null %}
+        {% for tag in tags_list %}
+          <a href="/tags#{{ tag }}-ref" class='list-group-item'>
+            {{ tag }}
+          </a> | 
+        {% endfor %}
+      {% else %}
+        {% for tag in tags_list %}
+          <a href="/tags#{{ tag[0] }}-ref" class='list-group-item'>
+            {{ tag[0] }}
+          </a> | 
+        {% endfor %}
+      {% endif %}
+
+      {% assign tags_list = nil %}
+
+      <hr/>
+
+    </div>
+    
       
   </div>
   
@@ -78,29 +109,10 @@ layout: default
   <hr style="border-top: 1px dotted #8c8b8b;" />
     -->
 
-<div class='list-group'>
-  {% assign tags_list = site.tags %}
-
-    <hr style="border-top: 1px dotted #8c8b8b;" />
-    
-  {% if tags_list.first[0] == null %}
-    {% for tag in tags_list %}
-      <a href="/tags#{{ tag }}-ref" class='list-group-item'>
-        {{ tag }}
-      </a> | 
-    {% endfor %}
-  {% else %}
-    {% for tag in tags_list %}
-      <a href="/tags#{{ tag[0] }}-ref" class='list-group-item'>
-        {{ tag[0] }}
-      </a> | 
-    {% endfor %}
-  {% endif %}
-
-  {% assign tags_list = nil %}
-  
-  <hr/>
-
-</div>
+        </div> <!-- max-new-content -->
+        <div class="max-new-sidebar">
+            max
+        </div>
+</div> <!-- max-new-wrapper -->
     
 </div>
