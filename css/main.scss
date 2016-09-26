@@ -106,12 +106,11 @@ $on-laptop:        1024px;
     padding: 5px;
     background-color: #555;
     border-radius: 5px;
-    min-height: 640px;
 }
 
 #max-wrapper {
   // margin-right: 220px;
-    min-height: 640px;
+  // min-height: 640px;
 }
 
 #max-content {
@@ -129,6 +128,7 @@ $on-laptop:        1024px;
 }
 
 .max-new-wrapper {
+    min-height: 640px;
     margin-right: 220px;
 }
 
