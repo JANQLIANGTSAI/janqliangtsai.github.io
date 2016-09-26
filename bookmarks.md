@@ -4,11 +4,21 @@ title: links
 permalink: /links/
 ---
 
-BOOKMARKS
+##BOOKMARKS
+
+###Design Thinking
+* [Creativity at Work](http://www.creativityatwork.com/design-thinking-strategy-for-innovation/)  
+    Linda Naiman / Founder, Creativity at Work
+
+###Technology Innovations
+
+
+###Whatever
+* [Markdown Cheatsheet](http://assemble.io/docs/Cheatsheet-Markdown.html)
 
 
 
 
 
 ---
-Back to [Blogs](http://github.maxtsai.com/)
+Back to [Home](/)
