@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  eLearning: Restful SIS Integration"
+title:  "eLearning: Restful SIS Integration"
 date:   2016-10-24 18:23:00 -0700
 categories: maxtsai update
 tags: innovation work-in-progress LMS SIS RESTful  
-description: eLearning: Restful SIS Integration (poor man's version of SAIP)
+description: "eLearning: Restful SIS Integration (poor man's version of SAIP)"
 ---
 
 <center>
