@@ -8,6 +8,7 @@
             <!--
   <h1 class="page-heading"><br/>Posts</h1>
 -->
+<<<<<<< HEAD
             <br/>
 
             <div id="max-wrapper">
@@ -36,6 +37,40 @@
 
                     {% endfor %}
                 </ul>
+=======
+<br/>
+
+  <div id="max-wrapper">
+      
+      <ul class="post-list">
+        {% for post in paginator.posts %}
+          <li>
+              
+            <div id="max-content">
+                
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+            <p style="font-size: ">
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+            </p>
+                
+            {% if page.description %}<p>{{ page.description }}</p>{% endif %}
+            
+            <div id="max-post-content">
+                {{ post.excerpt }} 
+                
+                {% capture content_words %} 
+                {{ post.content | number_of_words }} 
+                {% endcapture %} 
+                
+                {% capture excerpt_words %} 
+                {{ post.excerpt | number_of_words }} 
+                {% endcapture %} 
+    
+                {% if excerpt_words != content_words %}
+                <a class="btn btn-sm btn-primary" href="{{ post.url }}" role="button"> more .. <i class="fa fa-arrow-circle-right"></i></a>
+                {% endif %}       
+>>>>>>> parent of cd4ae48... main title h3
             </div>
 
             <!-- pagenaton -->
