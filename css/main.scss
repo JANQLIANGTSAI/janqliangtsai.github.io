@@ -136,13 +136,14 @@ $on-laptop:        1024px;
 .max-new-content {
     float:left;
     width: 100%;
-    border: 1px solid white;
+    // border: 1px solid white;
 }
 
 .max-new-sidebar {
     float:right;
     width:210px;
-    // background:#c9c;
+    padding: 5px;
+    background:#666;
     border: 1px solid white;
 }
 
