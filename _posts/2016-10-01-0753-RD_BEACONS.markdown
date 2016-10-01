@@ -10,7 +10,7 @@ description: "Development in Beacons - as a Starter."
 ### About Beacons
 
 `iBeacon is a protocol developed by Apple and introduced at the Apple Worldwide Developers Conference in 2013. Various vendors have since made iBeacon-compatible hardware transmitters - typically called beacons - a class of Bluetooth low energy (BLE) devices that broadcast their identifier to nearby portable electronic devices. The technology enables smartphones, tablets and other devices to perform actions when in close proximity to an iBeacon.`  
-via [Wikipedia](http://tiny.cc/8d0efy)
+via [Wikipedia](http://tiny.cc/8d0efy)<!--more-->
 
 **To state the obvious **  
 
