@@ -29,10 +29,24 @@ Based upon responses provided in the ITPR form, a more in-depth assessment may b
 * Technology Integration and Support
 * Procurement and Contracting  
 
+**Development Team**  
+
+        Technical Architecture and Development Lead  
+        [Max Tsai](janq@csufresno.edu)  
+        Innovation Architect, Technology Services  
+
+        Qualtrics Design and Implemenation Lead  
+        [Chris Hernandez](chhernandez@csufresno.edu)  
+        Research Analyst, Office of Institutional Effectiveness   
+
+        Service / Functional Design Lead  
+        [Tom Siechert](tsiechert@csufresno.edu)                                                             
+        ATI Procurement Program Manager | Senior IT Buyer  
+
 #### Process/Data Flow diagram 
 
-![Technical Diagram](/images/projects/ITPR-SS_Technical.png){: .image-thumbnail }  
-[Full Size](/images/projects/ITPR-SS_Technical.png){: target="_blank"}
+![Technical Diagram](/images/projects/itpr/ITPR-SS_Technical.png){: .image-thumbnail }  
+[Full Size](/images/projects/itpr/ITPR-SS_Technical.png){: target="_blank"}
 
 The ITPR/S (IT Purchasing Requests / Self-Service) system is designed to support two options of notification and task tracking:
 
@@ -65,3 +79,27 @@ Option 2 (Chewell option - Pending)
 * [Lumen Micro-framework](https://lumen.laravel.com/){: target="_blank"}
 
 
+#### UX / UI
+
+1. Portal Frontpage
+![Portal Frontpage](/images/projects/itpr/01-Portal.png){: .image-thumbnail }  
+[Full Size](/images/projects/itpr/01-Portal.png){: target="_blank"}
+
+2. Main Menu (post login)
+![Main Menu](/images/projects/itpr/02-MainMenu.png){: .image-thumbnail }  
+[Full Size](/images/projects/itpr/02-MainMenu.png){: target="_blank"}
+
+3. New Request (push to Quatrics with Embedded data)
+![New Request](/images/projects/itpr/03-AddQualtrics.png){: .image-thumbnail }  
+[Full Size](/images/projects/itpr/03-AddQualtrics.png){: target="_blank"}
+
+4. Staus Dashboard
+![Staus Dashboard](/images/projects/itpr/04-Dashboard.png){: .image-thumbnail }  
+[Full Size](/images/projects/itpr/04-Dashboard.png){: target="_blank"}
+
+5. Debug (Raw Data)
+![Debug](/images/projects/itpr/05-BebugRaw.png){: .image-thumbnail }  
+[Full Size](/images/projects/itpr/05-BebugRaw.png){: target="_blank"}
+
+-----
+Last updated: 10/01/2016 12:22PM (janq)  
