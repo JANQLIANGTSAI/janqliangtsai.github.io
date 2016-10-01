@@ -14,6 +14,7 @@ via [Wikipedia](http://tiny.cc/8d0efy)<!--more-->
 **To state the obvious **  
 
 _2014_  
+
 > Modern, smartphone-toting humans spend most of their time indoors. -- But indoor spaces often block cell signals and make it nearly impossible to locate devices via GPS. Beacons are a solution. 
 via [Business Insider](http://tiny.cc/mh0efy)
 
@@ -28,6 +29,7 @@ and [Beyond iBeacons: 7 cool uses of beacons you may not expect](http://www.info
 * Provide smarter signage
 
 _2015_  
+
 > Location based technologies driven by mobile are fast gaining traction in healthcare and can be harnessed for a host of functions like, keeping tabs on devices, assets and patients. iBeacon technology is among the most effective and efficient solutions that can be deployed in the healthcare space today for a wide variety of location based applications.  
 via [How Beacons can Revolutionise Healthcare](http://sumo.ly/kFmh)
 
