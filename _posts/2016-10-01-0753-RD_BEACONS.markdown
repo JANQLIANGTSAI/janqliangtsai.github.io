@@ -7,8 +7,7 @@ tags: innovation work-in-progress coding ibeacon eddystone
 description: "Development in Beacons - as a Starter."
 ---
 
-### About Beacons
-
+### About Beacons  
 `iBeacon is a protocol developed by Apple and introduced at the Apple Worldwide Developers Conference in 2013. Various vendors have since made iBeacon-compatible hardware transmitters - typically called beacons - a class of Bluetooth low energy (BLE) devices that broadcast their identifier to nearby portable electronic devices. The technology enables smartphones, tablets and other devices to perform actions when in close proximity to an iBeacon.`  
 via [Wikipedia](http://tiny.cc/8d0efy)<!--more-->
 
@@ -31,7 +30,8 @@ _2015_
 `Location based technologies driven by mobile are fast gaining traction in healthcare and can be harnessed for a host of functions like, keeping tabs on devices, assets and patients. iBeacon technology is among the most effective and efficient solutions that can be deployed in the healthcare space today for a wide variety of location based applications.  `
 via [How Beacons can Revolutionise Healthcare](http://sumo.ly/kFmh)
 
-_2016_
-More IoT/Sensors (tbd)
+**To state the future **  
+More IoT/Sensors
 
+_____
 ++ to be continued / draft #1 ++
