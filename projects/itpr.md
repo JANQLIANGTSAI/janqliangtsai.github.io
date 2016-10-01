@@ -6,13 +6,15 @@ excerpt:
 ---
   
   
-### Information Technology Purchasing Request: Self-Service System
+### Information Technology Purchasing Review: Self-Service System
 
 <hr style="border-top: 1px dotted #8c8b8b;" />  
 
 [About](#about)  
 [Process/Data Flow diagram](#processdata-flow-diagram)  
 [Technology Stack](#technology-stack)  
+  
+( the [brief pdf version](/images/projects/itpr/ITPRTechnicalDocumentation-Qualtrics2017.pdf){: target="_blank"})
 
 <hr style="border-top: 1px dotted #8c8b8b;" />  
   
@@ -33,20 +35,7 @@ Based upon responses provided in the ITPR form, a more in-depth assessment may b
 #### Process/Data Flow diagram 
 
 ![Technical Diagram](/images/projects/itpr/ITPR-SS_Technical.png){: .image-thumbnail }  
-[Full Size](/images/projects/itpr/ITPR-SS_Technical.png){: target="_blank"}
-
-The ITPR/S (IT Purchasing Requests / Self-Service) system is designed to support two options of notification and task tracking:
-
-Option 1 (default option)
-
-* Direct Email Notification to the individual reviewers thru Qualtrics; and 
-* Additional Timer option and Email Processor for scheduled reminders thru the ITPSS/R Status Tracking component
-
-Option 2 (Chewell option - Pending)
-
-* Cherwell tasks triggered by the monitoring the Qualtrics ITPSS email queue
-* Reviewers will process the requests thru the regular Cherwell workflow
-
+[Full Size](/images/projects/itpr/ITPR-SS_Technical.png)
 
 #### Technology Stack
 
@@ -57,7 +46,7 @@ Option 2 (Chewell option - Pending)
 
 **Qualtrics Integration**  
 
-* Qualtrics InSight Platform
+* Qualtrics InSight Platform API
 * [Embedded Data - Passing Information Via Query Strings](https://www.qualtrics.com/support/integrations/api-integration/passing-information-through-query-strings/){: target="_blank"}
 * [Web Services](https://www.qualtrics.com/support/survey-platform/survey-module/survey-flow/advanced-elements/web-service/){: target="_blank"}
 
@@ -88,6 +77,19 @@ Option 2 (Chewell option - Pending)
 ![Debug](/images/projects/itpr/05-BebugRaw.png){: .image-thumbnail }  
 [Full Size](/images/projects/itpr/05-BebugRaw.png){: target="_blank"}
 
+6. The system is designed to support two options of notification and task tracking:  
+
+  Option 1 (default option)
+
+  * Direct Email Notification to the individual reviewers thru Qualtrics; and 
+  * Additional Timer option and Email Processor for scheduled reminders thru the ITPSS/R Status Tracking component
+
+  Option 2 (Chewell option - Pending)
+
+  * Cherwell tasks triggered by the monitoring the Qualtrics ITPSS email queue
+  * Reviewers will process the requests thru the regular Cherwell workflow
+  
+  
 -----
 Last updated: 10/01/2016 12:22PM (janq)  
 
