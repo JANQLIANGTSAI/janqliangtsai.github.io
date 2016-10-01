@@ -90,16 +90,21 @@ Option 2 (Chewell option - Pending)
 -----
 Last updated: 10/01/2016 12:22PM (janq)  
 
-**Project Contacts**  
+-----
 
-* Technical Architecture and Development Lead  
-  [Max Tsai](janq@csufresno.edu)  
-  Innovation Architect, Technology Services  
+```
+Project Contacts  
 
-* Qualtrics Design and Implemenation Lead  
-  [Chris Hernandez](chhernandez@csufresno.edu)  
-  Research Analyst, Office of Institutional Effectiveness   
+Technical Architecture and Development Lead  
+[Max Tsai](janq@csufresno.edu)  
+Innovation Architect, Technology Services  
 
-* Service / Functional Design Lead  
-  [Tom Siechert](tsiechert@csufresno.edu)                                                             
-  ATI Procurement Program Manager | Senior IT Buyer 
+Qualtrics Design and Implemenation Lead  
+[Chris Hernandez](chhernandez@csufresno.edu)  
+Research Analyst, Office of Institutional Effectiveness   
+
+Business Process / Functional Design Lead  
+[Tom Siechert](tsiechert@csufresno.edu)                                                             
+ATI Procurement Program Manager | Senior IT Buyer
+```
+
