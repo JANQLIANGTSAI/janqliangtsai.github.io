@@ -7,12 +7,14 @@ excerpt:
 
 ### Information Technology Purchasing Request: Self-Service System
 
+<hr style="border-top: 1px dotted #8c8b8b;" />  
+
 [About](#about)  
 [Process/Data Flow diagram](#processdata-flow-diagram)  
 [Technology Stack](#technology-stack)  
 
-<hr style="border-top: 1px dotted #8c8b8b;" />
-
+<hr style="border-top: 1px dotted #8c8b8b;" />  
+  
 #### About
 **IT Purchase Review (ITPR)**
 
@@ -47,16 +49,16 @@ Option 2 (Chewell option - Pending)
 
 #### Technology Stack
 
-**Web Portal with Single Sign On**
+**Web Portal with Single Sign On**  
 * LAMP (Linux, Apache, MariaDB, and PHP) platform
 * Single Sign On integration with LDAP Authentication
 
-**Qualtrics Integration**
+**Qualtrics Integration**  
 * Qualtrics InSight Platform
 * [Embedded Data - Passing Information Via Query Strings](https://www.qualtrics.com/support/integrations/api-integration/passing-information-through-query-strings/){: target="_blank"}
 * [Web Services](https://www.qualtrics.com/support/survey-platform/survey-module/survey-flow/advanced-elements/web-service/){: target="_blank"}
 
-**REST API**
+**REST API**  
 * [Lumen Micro-framework](https://lumen.laravel.com/){: target="_blank"}
 
 
