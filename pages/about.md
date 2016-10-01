@@ -2,6 +2,7 @@
 layout: page
 title: about
 permalink: /about/
+excerpt: About Max Tsai
 ---
 
 ### Max J. Tsai 

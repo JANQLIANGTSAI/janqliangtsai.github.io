@@ -2,6 +2,7 @@
 layout: page
 title: links
 permalink: /links/
+excerpt: References
 ---
 
 ## BOOKMARKS
