@@ -31,17 +31,17 @@ Based upon responses provided in the ITPR form, a more in-depth assessment may b
 
 **Development Team**  
 
-        Technical Architecture and Development Lead  
-        [Max Tsai](janq@csufresno.edu)  
-        Innovation Architect, Technology Services  
+* Technical Architecture and Development Lead
+  [Max Tsai](janq@csufresno.edu)  
+  Innovation Architect, Technology Services  
 
-        Qualtrics Design and Implemenation Lead  
-        [Chris Hernandez](chhernandez@csufresno.edu)  
-        Research Analyst, Office of Institutional Effectiveness   
+* Qualtrics Design and Implemenation Lead  
+  [Chris Hernandez](chhernandez@csufresno.edu)  
+  Research Analyst, Office of Institutional Effectiveness   
 
-        Service / Functional Design Lead  
-        [Tom Siechert](tsiechert@csufresno.edu)                                                             
-        ATI Procurement Program Manager | Senior IT Buyer  
+* Service / Functional Design Lead  
+  [Tom Siechert](tsiechert@csufresno.edu)                                                             
+  ATI Procurement Program Manager | Senior IT Buyer  
 
 #### Process/Data Flow diagram 
 
