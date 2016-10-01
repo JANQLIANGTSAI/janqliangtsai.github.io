@@ -29,20 +29,6 @@ Based upon responses provided in the ITPR form, a more in-depth assessment may b
 * Technology Integration and Support
 * Procurement and Contracting  
 
-**Development Team**  
-
-* Technical Architecture and Development Lead
-  [Max Tsai](janq@csufresno.edu)  
-  Innovation Architect, Technology Services  
-
-* Qualtrics Design and Implemenation Lead  
-  [Chris Hernandez](chhernandez@csufresno.edu)  
-  Research Analyst, Office of Institutional Effectiveness   
-
-* Service / Functional Design Lead  
-  [Tom Siechert](tsiechert@csufresno.edu)                                                             
-  ATI Procurement Program Manager | Senior IT Buyer  
-
 #### Process/Data Flow diagram 
 
 ![Technical Diagram](/images/projects/itpr/ITPR-SS_Technical.png){: .image-thumbnail }  
@@ -103,3 +89,17 @@ Option 2 (Chewell option - Pending)
 
 -----
 Last updated: 10/01/2016 12:22PM (janq)  
+
+**Project Contacts**  
+
+* Technical Architecture and Development Lead  
+  [Max Tsai](janq@csufresno.edu)  
+  Innovation Architect, Technology Services  
+
+* Qualtrics Design and Implemenation Lead  
+  [Chris Hernandez](chhernandez@csufresno.edu)  
+  Research Analyst, Office of Institutional Effectiveness   
+
+* Service / Functional Design Lead  
+  [Tom Siechert](tsiechert@csufresno.edu)                                                             
+  ATI Procurement Program Manager | Senior IT Buyer 
