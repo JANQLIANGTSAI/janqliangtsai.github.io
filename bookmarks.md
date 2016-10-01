@@ -4,17 +4,18 @@ title: links
 permalink: /links/
 ---
 
-##BOOKMARKS
+## BOOKMARKS
 
-###Design Thinking
+### Design Thinking
 * [Creativity at Work](http://www.creativityatwork.com/design-thinking-strategy-for-innovation/)  
     Linda Naiman / Founder, Creativity at Work
 
-###Technology Innovations
+### Technology Innovations
 
 
-###Whatever
+### Whatever
 * [Markdown Cheatsheet](http://assemble.io/docs/Cheatsheet-Markdown.html)
+* [Github 'delete' History](http://stackoverflow.com/questions/13716658/how-to-delete-all-commit-history-in-github)
 
 
 
