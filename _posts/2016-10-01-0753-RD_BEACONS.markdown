@@ -35,8 +35,9 @@ _2015_
 via [How Beacons can Revolutionise Healthcare](http://sumo.ly/kFmh)
 -->
 
-> a few of ideas  
-* Navigating buildings and spaces – use beacons as a virtual map or show helpful information
+a few of ideas  
+
+> * Navigating buildings and spaces – use beacons as a virtual map or show helpful information
 * Indoor and **underwater Geo-locating** – GPS works great outside, but inside a multi-storey building beacons can help
 * **Analyze how people move through a space to identify footfall, hotspots or heat-maps**
 * **Transport – smart bus stops, underground stations**
@@ -47,6 +48,7 @@ via [How Beacons can Revolutionise Healthcare](http://sumo.ly/kFmh)
 * Tracking assets and stock – follow the movement of large items around warehouse or hospitals
 * **Distributed networks – some newer types of beacon are even able to communicate with each other to act as wireless access points**
 * **Healthcare environments – access authorization, patient tracking and monitoring**  
+
 [A Brief Guide to Bluetooth iBeacons and It Can be Used in Healthcare](http://www.noobpreneur.com/2015/08/13/a-brief-guide-to-bluetooth-ibeacons-and-it-can-be-used-in-healthcare/)
 
 **To state the future **  
