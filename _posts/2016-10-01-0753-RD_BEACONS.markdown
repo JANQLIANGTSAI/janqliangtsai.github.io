@@ -11,9 +11,9 @@ description: "Development in Beacons - as a Starter."
 > iBeacon is a protocol developed by Apple and introduced at the Apple Worldwide Developers Conference in 2013. Various vendors have since made iBeacon-compatible hardware transmitters - typically called beacons - a class of Bluetooth low energy (BLE) devices that broadcast their identifier to nearby portable electronic devices. The technology enables smartphones, tablets and other devices to perform actions when in close proximity to an iBeacon.  
 via [Wikipedia](http://tiny.cc/8d0efy)<!--more-->
 
-**To state the obvious **  
-
 _2014_  
+
+**To state the obvious **  
 
 > Modern, smartphone-toting humans spend most of their time indoors. -- But indoor spaces often block cell signals and make it nearly impossible to locate devices via GPS. Beacons are a solution. 
 via [Business Insider](http://tiny.cc/mh0efy)
@@ -35,7 +35,7 @@ _2015_
 via [How Beacons can Revolutionise Healthcare](http://sumo.ly/kFmh)
 -->
 
-a few of ideas  
+**A few of ideas**  
 
 > * Navigating buildings and spaces – use beacons as a virtual map or show helpful information
 * Indoor and **underwater Geo-locating** – GPS works great outside, but inside a multi-storey building beacons can help
