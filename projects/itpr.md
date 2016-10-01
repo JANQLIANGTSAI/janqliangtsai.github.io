@@ -81,23 +81,23 @@ Option 2 (Chewell option - Pending)
 
 #### UX / UI
 
-1. Portal Frontpage
+1. Portal Frontpage  
 ![Portal Frontpage](/images/projects/itpr/01-Portal.png){: .image-thumbnail }  
 [Full Size](/images/projects/itpr/01-Portal.png){: target="_blank"}
 
-2. Main Menu (post login)
+2. Main Menu (post login)  
 ![Main Menu](/images/projects/itpr/02-MainMenu.png){: .image-thumbnail }  
 [Full Size](/images/projects/itpr/02-MainMenu.png){: target="_blank"}
 
-3. New Request (push to Quatrics with Embedded data)
+3. New Request (push to Quatrics with Embedded data)  
 ![New Request](/images/projects/itpr/03-AddQualtrics.png){: .image-thumbnail }  
 [Full Size](/images/projects/itpr/03-AddQualtrics.png){: target="_blank"}
 
-4. Staus Dashboard
+4. Staus Dashboard  
 ![Staus Dashboard](/images/projects/itpr/04-Dashboard.png){: .image-thumbnail }  
 [Full Size](/images/projects/itpr/04-Dashboard.png){: target="_blank"}
 
-5. Debug (Raw Data)
+5. Debug (Raw Data)  
 ![Debug](/images/projects/itpr/05-BebugRaw.png){: .image-thumbnail }  
 [Full Size](/images/projects/itpr/05-BebugRaw.png){: target="_blank"}
 
