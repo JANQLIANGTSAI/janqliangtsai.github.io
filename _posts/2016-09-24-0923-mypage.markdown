@@ -1,0 +1,60 @@
+---
+layout: post
+title:  "Welcome - My First Blog at Github - Pages!"
+date:   2016-09-24 09:00:00 -0700
+categories: maxtsai update
+tags: maxtsai howto github blog
+description: Host your Blogs at Github Pages
+---
+
+**Free hosting with GitHub Pages**  
+GitHub Pages are powered by [Jekyll](https://jekyllrb.com/), so you can easily deploy your site using GitHub for free—custom domain name and all.
+<!--more-->
+
+Getting Stated
+-----
+* Of course, head over to [Github](https://github.com/) and get your account if you do not have one.
+* Create a new repository named username.github.io, where username is your username on GitHub; i.e. *maxjtsai*.github.io. ( note: *the first part of the repository has to be exactly match the username; otherwise, it won’t work!* )
+* Clone your Github repository via command-line (via terminal) or [desktop tools](https://desktop.github.com/).
+* To make it easy for Blogging, I set up [Jekyll](https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages) and add a [theme](https://help.github.com/articles/adding-a-jekyll-theme-to-your-github-pages-site/).
+* Authoring content with your preferred [IDE](#authoring)
+* More details at [Pages at Github](https://pages.github.com/)
+
+Authoring
+-----
+* It is Markdown: [kramdown](http://kramdown.gettalong.org/). Here is the [Quick Reference](http://kramdown.gettalong.org/quickref.html).
+* [Brackets](http://brackets.io/) is a modern, **Open Source** text editor that understands web design and it has a [Markdown Preview](https://github.com/gruehle/MarkdownPreview) plug-in. 
+* You can modify the theme-style by editing main.scss. Here is my example (theme: minima):
+        .site-header {
+            background-color: black;
+        }
+
+        .site-title, .site-title:visited {
+            color: lightgray;
+        }
+
+        .site-nav .page-link {
+            color: lightcyan;
+            border-right: 1px solid gray;
+            padding: 3px;
+        }
+
+        @media screen and (max-width: 600px) {
+
+          .site-nav .page-link {
+            color: #000;
+          }
+
+        }
+
+
+Custom Domain
+-----
+1. Create a CNAME record
+2. Go to your repository > Settings > Custom Domain and enter the fully qualified domain name. *note: I believe it creates a CNAME file under your repository and do not change it -- I might be wrong.*
+
+* [additional information](https://help.github.com/articles/using-a-custom-domain-with-github-pages/)  
+
+Updates
+-----
+* Update: [GitHub Pages now faster and simpler with Jekyll 3.0](https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0)

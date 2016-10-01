@@ -1,0 +1,127 @@
+--- layout: default ---
+
+<div class="home">
+
+    <div class="max-new-wrapper">
+
+        <div class="max-new-content">
+            <!--
+  <h1 class="page-heading"><br/>Posts</h1>
+-->
+<<<<<<< HEAD
+            <br/>
+
+            <div id="max-wrapper">
+
+                <ul class="post-list">
+                    {% for post in paginator.posts %}
+                    <li>
+
+                        <div id="max-content">
+
+                            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+                            <h3>
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+            </h3> {% if page.description %}
+                            <p>{{ page.description }}</p>{% endif %}
+
+                            <div id="max-post-content">
+                                {{ post.excerpt }} {% capture content_words %} {{ post.content | number_of_words }} {% endcapture %} {% capture excerpt_words %} {{ post.excerpt | number_of_words }} {% endcapture %} {% if excerpt_words != content_words %}
+                                <a class="btn btn-sm btn-primary" href="{{ post.url }}" role="button"> more .. <i class="fa fa-arrow-circle-right"></i></a> {% endif %}
+                            </div>
+
+                        </div>
+
+                    </li>
+
+                    {% endfor %}
+                </ul>
+=======
+<br/>
+
+  <div id="max-wrapper">
+      
+      <ul class="post-list">
+        {% for post in paginator.posts %}
+          <li>
+              
+            <div id="max-content">
+                
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+            <p style="font-size: ">
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+            </p>
+                
+            {% if page.description %}<p>{{ page.description }}</p>{% endif %}
+            
+            <div id="max-post-content">
+                {{ post.excerpt }} 
+                
+                {% capture content_words %} 
+                {{ post.content | number_of_words }} 
+                {% endcapture %} 
+                
+                {% capture excerpt_words %} 
+                {{ post.excerpt | number_of_words }} 
+                {% endcapture %} 
+    
+                {% if excerpt_words != content_words %}
+                <a class="btn btn-sm btn-primary" href="{{ post.url }}" role="button"> more .. <i class="fa fa-arrow-circle-right"></i></a>
+                {% endif %}       
+>>>>>>> parent of cd4ae48... main title h3
+            </div>
+
+            <!-- pagenaton -->
+            <hr style="border-top: 1px dotted #8c8b8b;" />
+            <div class="pagination">
+                {% if paginator.previous_page %}
+                <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a> {% else %}
+                <span class="previous">Previous</span> {% endif %}
+                <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span> {% if paginator.next_page %}
+                <a href="{{ paginator.next_page_path }}" class="next">Next</a> {% else %}
+                <span class="next ">Next</span> {% endif %}
+            </div>
+
+            <br/>
+
+
+
+            <!--
+  <hr style="border-top: 1px dotted #8c8b8b;" />
+  <p class="rss-subscribe">
+    <a href="{{ "/tags/" | prepend: site.baseurl }}">tags</a> cloud | 
+    subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>
+  </p>
+  <hr style="border-top: 1px dotted #8c8b8b;" />
+    -->
+
+            <div class='list-group'>
+                {% assign tags_list = site.tags %}
+
+                <hr style="border-top: 1px dotted #8c8b8b;" /> {% if tags_list.first[0] == null %} {% for tag in tags_list %}
+                <a href="/tags#{{ tag }}-ref" class='list-group-item'>
+            {{ tag }}
+          </a> | {% endfor %} {% else %} {% for tag in tags_list %}
+                <a href="/tags#{{ tag[0] }}-ref" class='list-group-item'>
+            {{ tag[0] }}
+          </a> | {% endfor %} {% endif %} {% assign tags_list = nil %}
+
+                <hr/>
+
+            </div>
+
+        </div>
+
+        <!-- div max-new-content -->
+        <div class="max-new-sidebar">
+            max
+        </div>
+        <!-- div max-new-sidebar -->
+
+    </div>
+    <!-- div max-new-wrapper -->
+
+
+</div>

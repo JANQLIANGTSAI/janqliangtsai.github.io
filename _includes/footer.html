@@ -1,0 +1,78 @@
+<footer class="site-footer">
+
+  <div class="wrapper">
+
+<!--
+    <h2 class="footer-heading">{{ site.title | escape }}</h2>
+-->
+      
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+<!--
+          <li>
+            {% if site.author %}
+              {{ site.author | escape }}
+            {% else %}
+              {{ site.title | escape }}
+            {% endif %}
+            </li>
+-->
+        <li>
+            <img src="/images/maxtsai.jpg" alt="Max Tsai" width="64px">    
+        </li>
+        <li>
+        <img src="/images/tag-cloud.gif" alt="" width="16px" /> <a href="{{ "/tags/" | prepend: site.baseurl }}">tag cloud</a> 
+
+        </li>
+            
+        <li>
+          <img src="/images/rss-icon.jpg" alt="" width="16px" /> <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>
+        </li>
+            
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+            
+          <li>
+              <img src="/images/email-icon.png" alt="" width="16px" /> <a href="mailto:{{ site.email }}">{{ site.author }}</a>
+          </li>
+          <li>
+              <img src="/images/FB-fLogo-Blue-broadcast-2.png" alt="" width="16px" /> <a href="https://www.facebook.com/maxtsai">maxtsai</a>
+          </li>
+          {% if site.github_username %}
+          <li>
+            {% include icon-github.html username=site.github_username %}
+          </li>
+          {% endif %}
+
+          {% if site.twitter_username %}
+          <li>
+            {% include icon-twitter.html username=site.twitter_username %}
+          </li>
+          {% endif %}
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>{{ site.description | escape }}</p>
+      </div>
+    </div>
+
+      
+      <div align="center" style="background-color: #373737; color: white;">
+          
+          <hr style="border-top: 1px dotted #8c8b8b;" />
+          
+        <em>
+            <img src="//assets-cdn.github.com/images/modules/logos_page/Octocat.png" alt="Github Pages" height="32px" /> | 
+            <img src="//jekyllrb.com/img/logo-2x.png" alt="" height="32px" /> |
+            <img src="//kramdown.gettalong.org/overview.png" alt="kramdown" height="32px" /> |
+            <img src="//pbs.twimg.com/profile_images/1915279008/brackets_512_bigger.png" alt="" height="32px" />
+        </em>
+      </div>
+  </div>
+
+</footer>

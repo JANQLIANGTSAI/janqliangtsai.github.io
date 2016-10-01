@@ -1,0 +1,43 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing these this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+#
+title: Innovation at Work
+author: Max Tsai
+email: janq@csufresno.edu
+description: > # this means to ignore newlines until "baseurl:"
+  What gets us into trouble is not what we don’t know. It’s what we know for sure that just ain’t so. - Mark Twain
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://ia.maxtsai.com" # the base hostname & protocol for your site
+twitter_username: maxtsai
+github_username:  janqliangtsai
+
+# Build settings
+markdown: kramdown
+theme: minima
+#theme: ace-theme
+
+# by Max Tsai
+gems:
+   - jekyll-mentions
+   - jekyll-coffeescript
+   - jekyll-paginate
+   - jekyll-sitemap
+   - jekyll-feed
+
+jekyll-mentions:
+  base_url: https://twitter.com
+  
+paginate: 5

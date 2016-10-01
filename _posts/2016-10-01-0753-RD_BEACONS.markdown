@@ -1,0 +1,45 @@
+---
+layout: post
+title:  "Development in Beacons - as a Starter."
+date:   2016-10-01 07:53:08 -0700
+categories: beacon development 
+tags: innovation work-in-progress coding ibeacon eddystone 
+description: "Development in Beacons - as a Starter."
+---
+
+### About Beacons  
+> iBeacon is a protocol developed by Apple and introduced at the Apple Worldwide Developers Conference in 2013. Various vendors have since made iBeacon-compatible hardware transmitters - typically called beacons - a class of Bluetooth low energy (BLE) devices that broadcast their identifier to nearby portable electronic devices. The technology enables smartphones, tablets and other devices to perform actions when in close proximity to an iBeacon.  
+via [Wikipedia](http://tiny.cc/8d0efy)<!--more-->
+
+**To state the obvious **  
+
+_2014_  
+
+> Modern, smartphone-toting humans spend most of their time indoors. -- But indoor spaces often block cell signals and make it nearly impossible to locate devices via GPS. Beacons are a solution. 
+via [Business Insider](http://tiny.cc/mh0efy)
+
+and [Beyond iBeacons: 7 cool uses of beacons you may not expect](http://www.infoworld.com/article/2606357/mobile-technology/160948-7-cool-uses-of-beacons-you-may-not-expect.html)
+
+> * Identify passengers stuck in airport security
+* Remember to take out the garbage
+* Track things smarter
+* Authorize access to cars, buildings, and more
+* Navigate buildings and other spaces
+* Check out ski conditions at the lift
+* Provide smarter signage
+
+_2015_  
+
+> Location based technologies driven by mobile are fast gaining traction in healthcare and can be harnessed for a host of functions like, keeping tabs on devices, assets and patients. iBeacon technology is among the most effective and efficient solutions that can be deployed in the healthcare space today for a wide variety of location based applications.  
+via [How Beacons can Revolutionise Healthcare](http://sumo.ly/kFmh)
+
+**To state the future **  
+More IoT/Sensors
+
+
+### Beacons vs. XYZ
+
+* [Beacons vs. QR-code/NFC](http://www.smartinfobroker.com/index.php/en/basics/beacons-vs-qr-code-nfc)
+
+_____
+++ to be continued / draft #1 ++
