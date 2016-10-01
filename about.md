@@ -10,11 +10,11 @@ Email id: [janq@csufresno.edu](janq@csufresno.edu)
 ### PROFESSIONAL EXPERIENCE
 
 **Innovation Architect** (Present)  
-California State Univetsity, Fresno
+California State University, Fresno
 
 "_Create sustainable and innovative solutions to solve real problems, challenges, and needs in both administrative and academic areas at Fresno State._" 
 
-Engagement with key stakeholders to identify and understand opportunities for IT technology innovation with significant impacts to the university's core missions; Construct an innovation pipeline to track these opportunities, technologies and trends; Rapidly evaluate the viability and potential of identified technologies; Work with the wider IT Technology Office function to understand the impact of these new technologies on technology strategy, IT roadmaps, and business unit plans; Communicate activity, opportunities, insight, successes and failures as a result of the companys innovation activities and research to the wider IT community.
+Engagement with key stakeholders to identify and understand opportunities for IT technology innovation with significant impacts to the university's core missions; Construct an innovation pipeline to track these opportunities, technologies and trends; Rapidly evaluate the viability and potential of identified technologies; Work with the wider IT Technology Office function to understand the impact of these new technologies on technology strategy, IT roadmaps, and business unit plans; Communicate activity, opportunities, insight, successes and failures as a result of the company's innovation activities and research to the wider IT community.
   
 **Information Architect and Development Lead** (07/2006 - 08/2016)  
 California State University, Fresno  
@@ -40,7 +40,7 @@ Apply a broad range of technical expertise across the IT system lifecycle to def
 
 * Establish Academic Technologies deployment and project development cycle and executive plan, including initiation of the sandbox projects to continue collaborating with faculty and students on new innovative technologies and pedagogical possibilities. Academic Service Catalog.
 * Perform design and system analysis, requirements definitions, interface and data architectures, lifecycle cost estimation and analysis, and governance of Fresno State Academic Technology - Learning Platform and Services (LPS); currently, there are more than 22 integrated application systems hosted on-premises or in the cloud
-* Coordinate data integration of variable data sources including the campus Peoplesoft Student Information system; SSO implementation among the Learning Management Platform with campus infrusture and vendor applications; administer multi-tier enterprise applications incorporating Web servers, application servers, and database servers; and building technology alliances across campus organizations
+* Coordinate data integration of variable data sources including the campus Peoplesoft Student Information system; SSO implementation among the Learning Management Platform with campus infrastrusture and vendor applications; administer multi-tier enterprise applications incorporating Web servers, application servers, and database servers; and building technology alliances across campus organizations
 * Lead technical and innovation support of the Fresno State DISCOVERe - Faculty Learning Community programs and continue development of mobile technologies
 * Coordinate with campus leaders, instructional technology support team, and technology infrastructure teams, leading the technical architecture and implementation and support guidelines of:
   * Blackboard Self-Hosting system, 2006-2016
