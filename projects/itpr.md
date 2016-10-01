@@ -8,9 +8,10 @@ excerpt:
 ### Information Technology Purchasing Request: Self-Service System
 
 [About](#about)  
-[Process/Data Flow diagram](#process-data-flow-diagram)  
+[Process/Data Flow diagram](#processdata-flow-diagram)  
 [Technology Stack](#technology-stack)  
 
+<hr style="border-top: 1px dotted #8c8b8b;" />
 
 #### About
 **IT Purchase Review (ITPR)**
