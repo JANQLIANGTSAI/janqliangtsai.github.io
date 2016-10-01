@@ -9,6 +9,8 @@ excerpt:
 
 #### Process/Data Flow diagram 
 
+![Technical Diagram](/images/projects/ITPR-SS_Technical.png)
+
 Basically, the ITPR/S (IT Purchasing Requests / Self-Service) system is designed to support two options of notification and task tracking:
 
 Option 1 (default option)
