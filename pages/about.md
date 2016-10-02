@@ -37,7 +37,7 @@ California State University, Fresno
 
 Apply a broad range of technical expertise across the IT system lifecycle to define, acquire, and validate large-scale systems to meet the mission and business needs of Madden Library. Lead and participate in Library systems, network design and implementation efforts. Administrate ALIS (Automated Library Information System - GEAC Library Online Catalog and Patron Management system), integration of campus student information (SIMS/R), and Identity systems.
 
-
+<!--
 ### SELECTED ACHIEVEMENTS  
 
 **Information Architect and Development Lead (07/2006 - 08/2016)**  
@@ -112,6 +112,8 @@ B.S. in Computer Science (1995)
 ### AWARD  
 
 * CATS 2008/2009 Outstanding Professional Award Winner Community of Academic Technology Staff http://cats.cdl.edu/2008-award-winners
+
+-->
 
 ---  
 
