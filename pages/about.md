@@ -6,7 +6,7 @@ excerpt: About Max Tsai
 ---
 <br/>
   
-![Max Tsai](/images/MaxTsaiRelaxed.jpg)  
+![Max Tsai](/images/MaxTsaiRelaxed.png)  
   
 ### Max J. Tsai 
 Email id: [janq@csufresno.edu](janq@csufresno.edu) 
