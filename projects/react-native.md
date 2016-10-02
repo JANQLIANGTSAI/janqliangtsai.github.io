@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ITPR
+title: Max working at React Native
 permalink: /projects/react-native
 excerpt:
 tags: learn no-index
