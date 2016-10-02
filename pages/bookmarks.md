@@ -16,7 +16,7 @@ excerpt: References
 
 ### Technology
 * [React Native](https://facebook.github.io/react-native/)
-* [ECMAScript® 2015 Language Specification](http://www.ecma-international.org/ecma-262/6.0/index.html) | [Learn](https://babeljs.io/docs/learn-es2015/)
+* [ECMAScript® 2015 Language Specification](http://www.ecma-international.org/ecma-262/6.0/index.html) and [Learn](https://babeljs.io/docs/learn-es2015/)
 
 
 ### Whatever
