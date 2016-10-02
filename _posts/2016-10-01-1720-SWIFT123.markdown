@@ -10,5 +10,11 @@ description: "Swift'ing 1-2-3."
 It crazy that I am no longer just interested in 'just' code for results. Do you know where the data is stored in memory for 'let' and 'var'?? 
 
 
-![value-vs-reference](https://koenig-media.raywenderlich.com/uploads/2015/08/value-vs-reference-500x500.png)
+![value-vs-reference](https://koenig-media.raywenderlich.com/uploads/2015/08/value-vs-reference-500x500.png)  
 [Reference vs Value Types in Swift: Part 1/2](https://www.raywenderlich.com/112027/reference-value-types-in-swift-part-1)
+
+References:
+
+* [Swift Tutorial](https://www.airpair.com/swift/learning-swift-tutorial){: target="blank"}  
+* [Complete Swift Guide](http://www.macworld.co.uk/feature/iosapps/what-apple-will-announce-with-swift-30-at-wwdc-2016-preview-3638662/){: target="blank"}  
+* [Swift App Tutorial](https://www.airpair.com/swift/building-swift-app-tutorial){: target="blank"}  
