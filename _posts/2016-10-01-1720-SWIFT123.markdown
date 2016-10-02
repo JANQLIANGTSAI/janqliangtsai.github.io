@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Swift'ing 1-2-3: Value vs. Reference"
+date:   2016-10-01 17:20:08 -0700
+categories: swift app development 
+tags: app swift coding apple
+description: "Swift'ing 1-2-3."
+---
+
+It crazy that I am no longer just interested in 'just' code for results. Do you know where the data is stored in memory for 'let' and 'var'?? 
+
+
+![value-vs-reference](https://koenig-media.raywenderlich.com/uploads/2015/08/value-vs-reference-500x500.png)
+[Reference vs Value Types in Swift: Part 1/2](https://www.raywenderlich.com/112027/reference-value-types-in-swift-part-1)
