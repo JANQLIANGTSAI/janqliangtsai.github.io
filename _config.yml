@@ -20,7 +20,7 @@ email: janq@csufresno.edu
 description: > # this means to ignore newlines until "baseurl:"
   What gets us into trouble is not what we don’t know. It’s what we know for sure that just ain’t so. - Mark Twain
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://ia.maxtsai.com" # the base hostname & protocol for your site
+url: "http://github.maxtsai.com" # the base hostname & protocol for your site
 twitter_username: maxtsai
 github_username:  janqliangtsai
 
